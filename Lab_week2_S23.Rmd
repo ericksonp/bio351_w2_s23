@@ -272,7 +272,7 @@ g[,p2 := p22 + 0.5*p12]
 And let's plot the frequency of the major allele (A2) vs the frequency of the minor allele (A1).  This time we'll use `geom_point` to make a scatterplot with x and y variables. Replace the `...` below to finish the code
 
 ```{r}
-ggplot(...)+geom_point(aex(x=..., y=...))
+ggplot(...)+geom_point(aes(x=..., y=...))
 ```
 
 **Question:**  Describe this graph. What is the sum of any given x+y and why?
